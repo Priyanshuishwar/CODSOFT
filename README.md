@@ -1,4 +1,4 @@
-That sounds like a great initiative for your internship! Here’s a brief overview of how each project could leverage HTML, CSS, JavaScript, and React, along with their purposes:
+Here’s a brief overview of how each project could leverage HTML, CSS, JavaScript, and React, along with their purposes:
 1. Personal Portfolio
 
     HTML: Structure your projects, skills, and contact information.
