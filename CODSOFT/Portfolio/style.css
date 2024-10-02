@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Soft light background */
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #2c3e50; /* Dark blue-gray */
+    color: #ecf0f1; /* Light gray */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* About */
+#about {
+    background: #e74c3c; /* Soft red */
+    padding: 50px 0;
+}
+
+#about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Centered layout */
+}
+
+.about-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px; /* Added margin for spacing */
+}
+
+.about-content p {
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Skills */
+/* Skills */
+#skills {
+    background: #ffffff; /* Clean white background */
+    padding: 50px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+#skills h2 {
+    margin-bottom: 20px;
+    font-size: 2em; /* Larger font size for emphasis */
+    color: #e74c3c; /* Soft red color */
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    font-size: 1.5em; /* Slightly larger font for visibility */
+    padding: 10px 0;
+    margin: 10px 0; /* Space between items */
+    background: #f9f9f9; /* Light gray background for each skill */
+    border-radius: 5px; /* Rounded corners */
+    transition: background 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+#skills li:hover {
+    background: #e74c3c; /* Change background on hover */
+    color: #fff; /* Change text color on hover */
+    transform: translateY(-3px); /* Slight lift effect */
+}
+
+
+/* Projects */
+#projects {
+    background: #f39c12; /* Soft orange */
+    padding: 50px 0;
+}
+
+#projects h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.project-card {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project-card img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+/* Resume */
+#resume {
+    background: #34495e; /* Dark gray-blue */
+    padding: 50px 0;
+    text-align: center;
+}
+
+#resume a {
+    font-size: 1.2em;
+    color: #ecf0f1; /* Light gray */
+    text-decoration: none;
+    border: 2px solid #ecf0f1; /* Light gray border */
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background 0.3s, color 0.3s;
+}
+
+#resume a:hover {
+    background: #ecf0f1; /* Light gray on hover */
+    color: #34495e; /* Dark gray-blue */
+}
+
+/* Contact */
+#contact {
+    background: #2c3e50; /* Dark blue-gray */
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 1.2em;
+    color: #ecf0f1; /* Light gray */
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
+}

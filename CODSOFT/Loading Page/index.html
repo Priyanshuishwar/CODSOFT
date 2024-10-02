@@ -1,0 +1,68 @@
+body {
+    background-color: #FFFFFF; /* White */
+    color: #333333; /* Dark Gray */
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 60px 20px;
+    background-color: #007BFF; /* Blue */
+    color: #FFFFFF; /* White text for contrast */
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.features img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, p {
+    text-align: center;
+    font-size: 1.2em; /* Adjust as needed */
+}
+
+button {
+    background-color: #FF6347; /* Tomato */
+    color: #FFFFFF; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF4500; /* Darker shade of Tomato */
+}
+
+nav {
+    display: flex;
+    flex-direction: column; /* Stack navigation links */
+    align-items: center;
+}
+
+nav a {
+    color: #FFFFFF; /* White for links in header */
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+nav a:hover {
+    color: #FFD700; /* Gold on hover */
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    header {
+        padding: 60px 20px;
+    }
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+}
